@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "crash_app",
-    "slug": "crash_app",
+    "name": "Owl",
+    "slug": "owl",
+    "scheme": "owl",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {

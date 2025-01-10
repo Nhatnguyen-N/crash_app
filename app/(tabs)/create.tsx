@@ -27,11 +27,7 @@ const Create = () => {
     prompt: "",
   });
   const [uploading, setUploading] = useState(false);
-  // const player = useVideoPlayer(form.video.uri, (player) => {
-  //   // player.loop = true;
 
-  //   player.play();
-  // });
   const openPicker = async (selectType) => {
     const result = await DocumentPicker.getDocumentAsync({
       type:

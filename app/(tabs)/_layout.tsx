@@ -3,7 +3,14 @@ import React from "react";
 import { Tabs } from "expo-router";
 import { icons } from "@/constants";
 
-const TabIcon = ({ icon, color, name, focused }) => {
+interface TabProps {
+  icon: any;
+  color: string;
+  name: string;
+  focused: boolean;
+}
+
+const TabIcon = ({ icon, color, name, focused }: TabProps) => {
   return (
     <View
       style={{
